@@ -1,0 +1,4 @@
+<IfModule mod_headers.c>
+    # Set X-Robots-Tag header for SEO indexing
+    Header set X-Robots-Tag "index, follow"
+</IfModule>
