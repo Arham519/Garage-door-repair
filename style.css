@@ -127,6 +127,12 @@ button {
     grid-template-columns: repeat(4, 1fr);
 }
 
+@media (min-width: 577px) {
+    .grid-span-2 {
+        grid-column: span 2;
+    }
+}
+
 .grid-2-13 {
     grid-template-columns: 1.2fr 1.8fr;
 }
